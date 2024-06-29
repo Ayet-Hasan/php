@@ -32,19 +32,3 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </html>
 
 
-
-<?php
-// Function to count words in a string
-function countWords($str) {
-    // Use str_word_count function to count words
-    // This function counts words separated by any whitespace
-    return str_word_count($str);
-}
-
-// Example usage
-$string = "Hello, this is a sample string."; // You can change this string to test with different inputs
-
-$numWords = countWords($string);
-
-echo "The number of words in the string \"$string\" is: $numWords";
-?>

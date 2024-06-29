@@ -25,7 +25,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Display the original and reversed strings
     echo "Original string: $inputString<br>";
-    echo "Reversed string: $reversedString";
+    echo "Reversed string: $reversedString <br>";
+     echo " length of this string:$length ";
 }
 ?>
 
